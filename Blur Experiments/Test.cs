@@ -9,7 +9,7 @@ namespace Blur_Experiments
 {
     public static class Test {
         public static void TestKernel() {
-            KernelFloat k = new KernelFloat(5);
+            KernelFloat k = new(5);
             k[2, 3] = 1;
         }
     }
