@@ -19,7 +19,7 @@ namespace Blur_Experiments
             public readonly int CenterY;
             /// <summary>A 2D array contents of the kernel. Remember to access in the form of Data[y, x].
             /// The indexer for this class is based on this property.</summary>
-            public readonly ScalarType[,] Data; // Remember to access in the form of Data[y, x]
+            private readonly ScalarType[,] Data; // Remember to access in the form of Data[y, x]
 
             /// <summary>Creates a square Kernel of given width and height.</summary>
             /// <param name="size"></param>
